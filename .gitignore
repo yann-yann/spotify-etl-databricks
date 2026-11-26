@@ -1,0 +1,18 @@
+# Personal data. Never commit.
+Streaming_History_*.json
+*.json
+*.csv
+*.parquet
+
+# Credentials and tokens
+.env
+.spotify_token.json
+.spotify_state.json
+
+# Databricks exports (can contain notebook output with personal data)
+*.dbc
+*.ipynb
+
+# Misc
+__pycache__/
+.DS_Store
